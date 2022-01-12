@@ -19,7 +19,7 @@ Xml structure:
 </data>
 '''
 
-xml = 'news.xml'  # path
+xml = 'news.xml'  # Path
 root = etree.parse(xml).getroot()
 
 result = dict()
