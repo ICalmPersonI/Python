@@ -7,7 +7,7 @@ from nltk import pos_tag, tokenize, WordNetLemmatizer
 from nltk.corpus import stopwords
 
 '''
-Structure xml:
+Xml structure:
 <?xml version='1.0' encoding='UTF8'?>
 <data>
   <corpus>
@@ -19,7 +19,7 @@ Structure xml:
 </data>
 '''
 
-xml = 'news.xml'  # path
+xml = 'news.xml'  # Path
 root = etree.parse(xml).getroot()
 
 result = dict()
