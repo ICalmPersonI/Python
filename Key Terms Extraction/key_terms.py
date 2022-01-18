@@ -12,8 +12,10 @@ Xml structure:
 <data>
   <corpus>
     <news>
-      <value name="head">Some title</value>
-      <value name="text">Some text</value>
+      <value name="head">Some title 1</value>
+      <value name="text">Some text 1</value>
+      <value name="head">Some title n</value>
+      <value name="text">Some text n</value>
     </news>
   </corpus>
 </data>
